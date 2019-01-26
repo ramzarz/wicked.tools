@@ -56,7 +56,7 @@ if ! ${onlyHelm}; then
   for image in ${imageBases}; do
     echo ""
     echo "Creating Github release for wicked.${image}..."
-    node create-github-release.js apim-haufe-io/wicked.${image} v$1
+    node create-github-release.js ramzarz/wicked.${image} v$1
   done
 
   ./release.sh $1

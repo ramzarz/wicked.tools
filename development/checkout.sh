@@ -140,7 +140,7 @@ if ! ${doInstall} && ${killPackageLock}; then
     killPackageLock=false
 fi
 
-baseUrl="https://github.com/apim-haufe-io/"
+baseUrl="https://github.com/ramzarz/"
 
 pushd ${currentDir} > /dev/null
 . ../release/_repos.sh
