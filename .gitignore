@@ -2,5 +2,6 @@ node_modules
 *enc
 *tgz
 .DS_Store
+.idea
 tmp
 *.log
